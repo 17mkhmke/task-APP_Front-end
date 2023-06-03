@@ -1,0 +1,97 @@
+.task-app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .task-app h1 {
+    color: blue;
+  }
+  
+  .task-app h2 {
+    color: blue;
+    margin-top: 20px;
+  }
+  
+  .task-app form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .task-app label {
+    margin-bottom: 5px;
+  }
+  
+  .task-app input[type='text'],
+  .task-app textarea,
+  .task-app input[type='date'] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .task-app button[type='submit'],
+  .task-app button {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .task-app button[type='submit']:hover,
+  .task-app button:hover {
+    background-color: white;
+    color: green;
+  }
+  
+  .task-app table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .task-app th,
+  .task-app td {
+    padding: 8px;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .task-app th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+  }
+  
+  .task-app tbody tr:nth-child(even) {
+    background-color: lightblue;
+  }
+  /* .task-app button[type='submit'],
+.task-app button.update-button {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.task-app button[type='submit']:hover,
+.task-app button.update-button:hover {
+  background-color: darkblue;
+} */
+
+.task-app button.delete-button {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.task-app button.delete-button:hover {
+  background-color: darkred;
+}
