@@ -72,5 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### USING THE APP
 
 This app is very simple, it is a task app where you can create, update and Delete
-tasks, If you want to create a task there is a form provided where you enetr the details of the task and then press the create button and it will be created and saved in the database, If you want to edit the task just use the same form and enter the details you want to change and enter what stays the same and press the update button provided and it will be updated as well as in the database, if 
+tasks, If you want to create a task there is a form provided where you enetr the details of the task and then press the create button and it will be created and saved in the database, If you want to edit the task it will show a modal which will allow you to edit the task and it will be edited in the database also once you press edit after editting , if 
 you want to delete a task you can press delete which will also be deleted in the database
